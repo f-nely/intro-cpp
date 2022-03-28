@@ -34,6 +34,7 @@ int main()
 	*ptr3 = 35;
 	//cout << *ptr3 << endl;
 	//*ptr3 = *ptr;
+	delete ptr3;
 	ptr3 = ptr;
 	cout << *ptr3 << endl;
 	
